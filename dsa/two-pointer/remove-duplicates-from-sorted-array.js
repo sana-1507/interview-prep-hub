@@ -12,4 +12,4 @@ function removeDuplicatesFromSortedArr(nums) {
     return nums
 }
 
-console.log(removeDuplicatesFromSortedArr([1,1,2,3,3]))
+console.log(removeDuplicatesFromSortedArr([1,2,2,3,3]))
