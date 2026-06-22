@@ -1,0 +1,5 @@
+<p>{{getFormattedTime()}}</p>
+<button (click) ="start()" [disabled]="isTimerRunning">Start</button>
+<button (click)="pause()" [disabled]="!isTimerRunning">Pause</button>
+<button (click)="reset()">Reset</button>
+<button (click)="resume()" [disabled]="isTimerRunning || timer ==0">Resume</button>
